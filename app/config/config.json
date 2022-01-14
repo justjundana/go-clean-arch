@@ -1,0 +1,20 @@
+{
+    "debug": true,
+    "server": {
+      "address": ":8000"
+    },
+    "context":{
+      "timeout":2
+    },
+    "database": {
+        "host": "127.0.0.1",
+        "port": "3306",
+        "user": "root",
+        "pass": "jagogolang",
+        "name": "go_clean"
+    },
+    "jwt" : {
+      "secret" : "ju2d424_ja90g0LaN9!@#$%",
+      "expired" : 1
+    }
+  }
